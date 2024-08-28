@@ -1,0 +1,2 @@
+var g_data = ["","../rtl/gray_counter_if.sv","../test/gray_counter_pkg.sv","../agent/gray_counter_xtn.sv","../agent/gray_counter_agent_config.sv","../tb/gray_counter_config.sv","../agent/gray_counter_driver.sv","../agent/gray_counter_monitor.sv","../agent/gray_counter_sequencer.sv","../agent/gray_counter_agent.sv","../agent/gray_counter_seqs.sv","../tb/gray_counter_tb.sv","../test/test.sv","../tb/top.sv","../rtl/gray_counter.v"];
+processSrcNamesData(g_data);

@@ -1,0 +1,2 @@
+var g_data = {"8":{"pr":"/gray_counter_pkg","ty":2,"dui":2,"dun":"work.gray_counter_pkg","asserts":[{"n":["base_seq/body/#anonblk#94954439#21#4#/#ublk#94954439#22/immed__25"],"h":[0,1]}],"ad":0}}
+processAssertionsData(g_data);

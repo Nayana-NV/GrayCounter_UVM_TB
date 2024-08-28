@@ -1,0 +1,337 @@
+# vsim -cvgperinstance -vopt -voptargs="+acc" -coverage -sva -c -do " log -r /* ;coverage save -onexit mem_cov1;run -all; exit" -wlf wave_file1.wlf -l test1.log -sv_seed random work.top "+UVM_TESTNAME=base_test" 
+# Start time: 00:00:46 on Aug 12,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# //  Questa Sim-64
+# //  Version 2022.1_2 linux_x86_64 Apr  2 2022
+# //
+# //  Copyright 1991-2022 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.gray_counter_if(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.gray_counter_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.top(fast)
+# Loading work.gray_counter_if(fast__2)
+# Loading work.gray_counter(fast)
+# Loading /home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# ** Warning: (vsim-8634) Code was not compiled with coverage options.
+# Sv_Seed = 3548979640
+#  log -r /* 
+# coverage save -onexit mem_cov1
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+# --------------------------------------------------------------
+# Name                       Type                    Size  Value
+# --------------------------------------------------------------
+# uvm_test_top               base_test               -     @473 
+#   envh                     gray_counter_tb         -     @487 
+#     agt[0]                 gray_counter_agent      -     @495 
+#       drvh                 gray_counter_driver     -     @523 
+#         rsp_port           uvm_analysis_port       -     @538 
+#         seq_item_port      uvm_seq_item_pull_port  -     @530 
+#       monh                 gray_counter_monitor    -     @508 
+#         ap                 uvm_analysis_port       -     @515 
+#       sequencer            gray_counter_sequencer  -     @546 
+#         rsp_export         uvm_analysis_export     -     @553 
+#         seq_item_export    uvm_seq_item_pull_imp   -     @647 
+#         arbitration_queue  array                   0     -    
+#         lock_queue         array                   0     -    
+#         num_last_reqs      integral                32    'd1  
+#         num_last_rsps      integral                32    'd1  
+# --------------------------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_driver.sv(57) @ 0: uvm_test_top.envh.agt[0].drvh [gray_counter_driver] printing from driver 
+#  ---------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                       
+# ---------------------------------------------------------------------------------------------------
+# req                            gray_counter_xtn  -     @673                                        
+#   begin_time                   time              64    0                                           
+#   depth                        int               32    'd2                                         
+#   parent sequence (name)       string            9     base_seqh                                   
+#   parent sequence (full name)  string            44    uvm_test_top.envh.agt[0].sequencer.base_seqh
+#   sequencer                    string            34    uvm_test_top.envh.agt[0].sequencer          
+#   reset                        integral          1     'd0                                         
+#   gray_count                   integral          4     'd0                                         
+# ---------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_monitor.sv(60) @ 0: uvm_test_top.envh.agt[0].monh [gray_counter_monitor] printing from monitor 
+#  -------------------------------------------
+# Name          Type              Size  Value
+# -------------------------------------------
+# xtn           gray_counter_xtn  -     @669 
+#   reset       integral          1     'd0  
+#   gray_count  integral          4     'd0  
+# -------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_driver.sv(57) @ 0: uvm_test_top.envh.agt[0].drvh [gray_counter_driver] printing from driver 
+#  ---------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                       
+# ---------------------------------------------------------------------------------------------------
+# req                            gray_counter_xtn  -     @706                                        
+#   begin_time                   time              64    0                                           
+#   depth                        int               32    'd2                                         
+#   parent sequence (name)       string            9     base_seqh                                   
+#   parent sequence (full name)  string            44    uvm_test_top.envh.agt[0].sequencer.base_seqh
+#   sequencer                    string            34    uvm_test_top.envh.agt[0].sequencer          
+#   reset                        integral          1     'd0                                         
+#   gray_count                   integral          4     'd0                                         
+# ---------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_monitor.sv(60) @ 10: uvm_test_top.envh.agt[0].monh [gray_counter_monitor] printing from monitor 
+#  -------------------------------------------
+# Name          Type              Size  Value
+# -------------------------------------------
+# xtn           gray_counter_xtn  -     @701 
+#   reset       integral          1     'd0  
+#   gray_count  integral          4     'd1  
+# -------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_driver.sv(57) @ 10: uvm_test_top.envh.agt[0].drvh [gray_counter_driver] printing from driver 
+#  ---------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                       
+# ---------------------------------------------------------------------------------------------------
+# req                            gray_counter_xtn  -     @714                                        
+#   begin_time                   time              64    10                                          
+#   depth                        int               32    'd2                                         
+#   parent sequence (name)       string            9     base_seqh                                   
+#   parent sequence (full name)  string            44    uvm_test_top.envh.agt[0].sequencer.base_seqh
+#   sequencer                    string            34    uvm_test_top.envh.agt[0].sequencer          
+#   reset                        integral          1     'd0                                         
+#   gray_count                   integral          4     'd0                                         
+# ---------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_monitor.sv(60) @ 20: uvm_test_top.envh.agt[0].monh [gray_counter_monitor] printing from monitor 
+#  -------------------------------------------
+# Name          Type              Size  Value
+# -------------------------------------------
+# xtn           gray_counter_xtn  -     @710 
+#   reset       integral          1     'd0  
+#   gray_count  integral          4     'd3  
+# -------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_driver.sv(57) @ 20: uvm_test_top.envh.agt[0].drvh [gray_counter_driver] printing from driver 
+#  ---------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                       
+# ---------------------------------------------------------------------------------------------------
+# req                            gray_counter_xtn  -     @722                                        
+#   begin_time                   time              64    20                                          
+#   depth                        int               32    'd2                                         
+#   parent sequence (name)       string            9     base_seqh                                   
+#   parent sequence (full name)  string            44    uvm_test_top.envh.agt[0].sequencer.base_seqh
+#   sequencer                    string            34    uvm_test_top.envh.agt[0].sequencer          
+#   reset                        integral          1     'd0                                         
+#   gray_count                   integral          4     'd0                                         
+# ---------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_monitor.sv(60) @ 30: uvm_test_top.envh.agt[0].monh [gray_counter_monitor] printing from monitor 
+#  -------------------------------------------
+# Name          Type              Size  Value
+# -------------------------------------------
+# xtn           gray_counter_xtn  -     @718 
+#   reset       integral          1     'd0  
+#   gray_count  integral          4     'd2  
+# -------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_driver.sv(57) @ 30: uvm_test_top.envh.agt[0].drvh [gray_counter_driver] printing from driver 
+#  ---------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                       
+# ---------------------------------------------------------------------------------------------------
+# req                            gray_counter_xtn  -     @730                                        
+#   begin_time                   time              64    30                                          
+#   depth                        int               32    'd2                                         
+#   parent sequence (name)       string            9     base_seqh                                   
+#   parent sequence (full name)  string            44    uvm_test_top.envh.agt[0].sequencer.base_seqh
+#   sequencer                    string            34    uvm_test_top.envh.agt[0].sequencer          
+#   reset                        integral          1     'd0                                         
+#   gray_count                   integral          4     'd0                                         
+# ---------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_monitor.sv(60) @ 40: uvm_test_top.envh.agt[0].monh [gray_counter_monitor] printing from monitor 
+#  -------------------------------------------
+# Name          Type              Size  Value
+# -------------------------------------------
+# xtn           gray_counter_xtn  -     @726 
+#   reset       integral          1     'd0  
+#   gray_count  integral          4     'd6  
+# -------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_driver.sv(57) @ 40: uvm_test_top.envh.agt[0].drvh [gray_counter_driver] printing from driver 
+#  ---------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                       
+# ---------------------------------------------------------------------------------------------------
+# req                            gray_counter_xtn  -     @738                                        
+#   begin_time                   time              64    40                                          
+#   depth                        int               32    'd2                                         
+#   parent sequence (name)       string            9     base_seqh                                   
+#   parent sequence (full name)  string            44    uvm_test_top.envh.agt[0].sequencer.base_seqh
+#   sequencer                    string            34    uvm_test_top.envh.agt[0].sequencer          
+#   reset                        integral          1     'd0                                         
+#   gray_count                   integral          4     'd0                                         
+# ---------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_monitor.sv(60) @ 50: uvm_test_top.envh.agt[0].monh [gray_counter_monitor] printing from monitor 
+#  -------------------------------------------
+# Name          Type              Size  Value
+# -------------------------------------------
+# xtn           gray_counter_xtn  -     @734 
+#   reset       integral          1     'd0  
+#   gray_count  integral          4     'd7  
+# -------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_driver.sv(57) @ 50: uvm_test_top.envh.agt[0].drvh [gray_counter_driver] printing from driver 
+#  ---------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                       
+# ---------------------------------------------------------------------------------------------------
+# req                            gray_counter_xtn  -     @746                                        
+#   begin_time                   time              64    50                                          
+#   depth                        int               32    'd2                                         
+#   parent sequence (name)       string            9     base_seqh                                   
+#   parent sequence (full name)  string            44    uvm_test_top.envh.agt[0].sequencer.base_seqh
+#   sequencer                    string            34    uvm_test_top.envh.agt[0].sequencer          
+#   reset                        integral          1     'd0                                         
+#   gray_count                   integral          4     'd0                                         
+# ---------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_monitor.sv(60) @ 60: uvm_test_top.envh.agt[0].monh [gray_counter_monitor] printing from monitor 
+#  -------------------------------------------
+# Name          Type              Size  Value
+# -------------------------------------------
+# xtn           gray_counter_xtn  -     @742 
+#   reset       integral          1     'd0  
+#   gray_count  integral          4     'd5  
+# -------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_driver.sv(57) @ 60: uvm_test_top.envh.agt[0].drvh [gray_counter_driver] printing from driver 
+#  ---------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                       
+# ---------------------------------------------------------------------------------------------------
+# req                            gray_counter_xtn  -     @754                                        
+#   begin_time                   time              64    60                                          
+#   depth                        int               32    'd2                                         
+#   parent sequence (name)       string            9     base_seqh                                   
+#   parent sequence (full name)  string            44    uvm_test_top.envh.agt[0].sequencer.base_seqh
+#   sequencer                    string            34    uvm_test_top.envh.agt[0].sequencer          
+#   reset                        integral          1     'd0                                         
+#   gray_count                   integral          4     'd0                                         
+# ---------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_monitor.sv(60) @ 70: uvm_test_top.envh.agt[0].monh [gray_counter_monitor] printing from monitor 
+#  -------------------------------------------
+# Name          Type              Size  Value
+# -------------------------------------------
+# xtn           gray_counter_xtn  -     @750 
+#   reset       integral          1     'd0  
+#   gray_count  integral          4     'd4  
+# -------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_driver.sv(57) @ 70: uvm_test_top.envh.agt[0].drvh [gray_counter_driver] printing from driver 
+#  ---------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                       
+# ---------------------------------------------------------------------------------------------------
+# req                            gray_counter_xtn  -     @762                                        
+#   begin_time                   time              64    70                                          
+#   depth                        int               32    'd2                                         
+#   parent sequence (name)       string            9     base_seqh                                   
+#   parent sequence (full name)  string            44    uvm_test_top.envh.agt[0].sequencer.base_seqh
+#   sequencer                    string            34    uvm_test_top.envh.agt[0].sequencer          
+#   reset                        integral          1     'd0                                         
+#   gray_count                   integral          4     'd0                                         
+# ---------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_monitor.sv(60) @ 80: uvm_test_top.envh.agt[0].monh [gray_counter_monitor] printing from monitor 
+#  -------------------------------------------
+# Name          Type              Size  Value
+# -------------------------------------------
+# xtn           gray_counter_xtn  -     @758 
+#   reset       integral          1     'd0  
+#   gray_count  integral          4     12   
+# -------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_driver.sv(57) @ 80: uvm_test_top.envh.agt[0].drvh [gray_counter_driver] printing from driver 
+#  ---------------------------------------------------------------------------------------------------
+# Name                           Type              Size  Value                                       
+# ---------------------------------------------------------------------------------------------------
+# req                            gray_counter_xtn  -     @770                                        
+#   begin_time                   time              64    80                                          
+#   depth                        int               32    'd2                                         
+#   parent sequence (name)       string            9     base_seqh                                   
+#   parent sequence (full name)  string            44    uvm_test_top.envh.agt[0].sequencer.base_seqh
+#   sequencer                    string            34    uvm_test_top.envh.agt[0].sequencer          
+#   reset                        integral          1     'd0                                         
+#   gray_count                   integral          4     'd0                                         
+# ---------------------------------------------------------------------------------------------------
+# 
+# UVM_INFO ../agent/gray_counter_monitor.sv(60) @ 90: uvm_test_top.envh.agt[0].monh [gray_counter_monitor] printing from monitor 
+#  -------------------------------------------
+# Name          Type              Size  Value
+# -------------------------------------------
+# xtn           gray_counter_xtn  -     @766 
+#   reset       integral          1     'd0  
+#   gray_count  integral          4     13   
+# -------------------------------------------
+# 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 90: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ../agent/gray_counter_monitor.sv(68) @ 90: uvm_test_top.envh.agt[0].monh [gray_counter_monitor] printing from monitor 
+#  -------------------------------------------
+# Name          Type              Size  Value
+# -------------------------------------------
+# xtn           gray_counter_xtn  -     @766 
+#   reset       integral          1     'd0  
+#   gray_count  integral          4     13   
+# -------------------------------------------
+# 
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   26
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [UVMTOP]     1
+# [gray_counter_driver]    10
+# [gray_counter_monitor]    11
+# ** Note: $finish    : /home/cad/eda/Mentor_Graphics/Questasim/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 90 ns  Iteration: 63  Instance: /top
+# Saving coverage database on exit...
+# End time: 00:00:47 on Aug 12,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2

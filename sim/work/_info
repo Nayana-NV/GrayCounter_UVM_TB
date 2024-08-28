@@ -1,0 +1,180 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2022.1_2 2022.04, Apr  2 2022
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home1/BRN46/NayanaNV/VLSI_RN/UVM_LABS/gray_counter/Lab10/sim
+T_opt
+!s11d gray_counter_pkg /home1/BRN46/NayanaNV/VLSI_RN/UVM_LABS/gray_counter/Lab10/sim/work 1 gray_counter_if 1 /home1/BRN46/NayanaNV/VLSI_RN/UVM_LABS/gray_counter/Lab10/sim/work 
+!s110 1723401046
+Vfm^JKfOG6RKCmHk;gQ;Wh0
+04 3 4 work top fast 0
+=1-000ae431a4f1-66b90356-14d4e-94b78
+R0
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2022.1_2;75
+vgray_counter
+Z3 !s110 1723401045
+!i10b 1
+!s100 VC>BCDglZj`J6d6>OKj:^0
+Iai^ZFC@Wa;j3Hg2fhR0HP3
+R1
+w1723398219
+8../rtl/gray_counter.v
+F../rtl/gray_counter.v
+!i122 23
+L0 1 18
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2022.1_2;75
+r1
+!s85 0
+31
+Z6 !s108 1723401045.000000
+Z7 !s107 ../test/test.sv|../tb/gray_counter_tb.sv|../agent/gray_counter_seqs.sv|../agent/gray_counter_agent.sv|../agent/gray_counter_sequencer.sv|../agent/gray_counter_monitor.sv|../agent/gray_counter_driver.sv|../tb/gray_counter_config.sv|../agent/gray_counter_agent_config.sv|../agent/gray_counter_xtn.sv|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|../tb/top.sv|../test/gray_counter_pkg.sv|../rtl/gray_counter.v|../rtl/gray_counter_if.sv|
+Z8 !s90 -work|work|../rtl/gray_counter_if.sv|../rtl/gray_counter.v|+incdir+../tb|+incdir+../test|+incdir+../agent|../test/gray_counter_pkg.sv|../tb/top.sv|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 -work work +incdir+../tb +incdir+../test +incdir+../agent -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+Ygray_counter_if
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R3
+!i10b 1
+!s100 gEeo=ZlE0_S=Y_1B<8F@C2
+IONe:^DS5EK_m11Qi]7J_A1
+S1
+R1
+w1723373965
+8../rtl/gray_counter_if.sv
+F../rtl/gray_counter_if.sv
+!i122 23
+Z12 L0 1 0
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R2
+Xgray_counter_pkg
+!s115 gray_counter_if
+R11
+Z13 DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+R3
+!i10b 1
+!s100 2:FO0ETQZL8CkY[Ki>k7`2
+IMYaA9zZbA:E9F9o2K=;P^1
+S1
+R1
+w1723401040
+8../test/gray_counter_pkg.sv
+F../test/gray_counter_pkg.sv
+Z14 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+Z15 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+Z16 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+Z17 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+Z18 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+Z19 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+Z20 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+Z21 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+Z22 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+Z23 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+Z24 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+Z25 F/home/cad/eda/Mentor_Graphics/Questasim/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+F../agent/gray_counter_xtn.sv
+F../agent/gray_counter_agent_config.sv
+F../tb/gray_counter_config.sv
+F../agent/gray_counter_driver.sv
+F../agent/gray_counter_monitor.sv
+F../agent/gray_counter_sequencer.sv
+F../agent/gray_counter_agent.sv
+F../agent/gray_counter_seqs.sv
+F../tb/gray_counter_tb.sv
+F../test/test.sv
+!i122 23
+R12
+VMYaA9zZbA:E9F9o2K=;P^1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R2
+vtop
+R11
+R13
+DXx4 work 16 gray_counter_pkg 0 22 MYaA9zZbA:E9F9o2K=;P^1
+R3
+!i10b 1
+!s100 IHP@S25O3]kFW?:;m7bO61
+I5lJW>i0kRnfz8W_W4mbH`2
+S1
+R1
+w1723371325
+8../tb/top.sv
+F../tb/top.sv
+R14
+R15
+R16
+R17
+R18
+R19
+R20
+R21
+R22
+R23
+R24
+R25
+!i122 23
+L0 1 6502
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R2
